@@ -1,0 +1,12 @@
+Route::group([
+    "prefix"=> 'api/{{ $aliasName }}',
+    'namespace' => '{{namespace}}\Http\Controllers\Api',
+], function() {
+    Route::get('/', '{{ $nameController }}@index')->name('api_get.{{ $aliasName }}.index');
+    Route::get('create', '{{ $nameController }}@create')->name('api_get.{{ $aliasName }}.create');
+    Route::post('store', '{{ $nameController }}@store')->name('api_post.{{ $aliasName }}.store');
+    Route::get('edit/{id}', '{{ $nameController }}@edit')->name('api_get.{{ $aliasName }}.edit');
+    Route::post('update/{id}', '{{ $nameController }}@update')->name('api_post.{{ $aliasName }}.update');
+    Route::get('status/{id}', '{{ $nameController }}@status')->name('api_get.{{ $aliasName }}.status');
+    Route::get('delete/{id}', '{{ $nameController }}@delete')->name('api_get.{{ $aliasName }}.delete');
+});

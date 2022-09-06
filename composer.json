@@ -1,0 +1,103 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "appstract/laravel-opcache": "^3.2.1",
+        "diglactic/laravel-breadcrumbs": "^6.1",
+        "doctrine/dbal": "^2.10",
+        "fideloper/proxy": "^4.0",
+        "fzaninotto/faker": "^1.9",
+        "google/apiclient": "^2.9",
+        "hashids/hashids": "^4.1",
+        "jenssegers/agent": "^2.6",
+        "laravel/framework": "^6.18.35",
+        "laravel/helpers": "^1.4",
+        "laravel/tinker": "^2.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "maatwebsite/excel": "^3.1",
+        "nwidart/laravel-modules": "^6.0",
+        "predis/predis": "^1.1",
+        "psr/container": "1.0.0",
+        "stevebauman/location": "4.0.0",
+        "torann/geoip": "1.2.1",
+        "workable/file-uploader": "@dev",
+        "workable/platform": "@dev",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.4",
+        "facade/ignition": "^1.4",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "^3.0",
+        "phpunit/phpunit": "^8.0",
+        "workable/package-generator": "dev-master"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "platform-check": false
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Modules\\": "Modules/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories",
+            "platform/packages/helpers/classes"
+        ],
+        "files": [
+            "app/Helpers/autoload.php",
+            "platform/packages/helpers/autoload.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./platform/core",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "./platform/packages/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}

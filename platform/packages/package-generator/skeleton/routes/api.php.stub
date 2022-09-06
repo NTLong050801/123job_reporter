@@ -1,0 +1,8 @@
+<?php
+Route::group([
+  'prefix' => '/api/{{ $aliasName }}',
+  'namespace' => '{{ $namespaceControllerApi }}',
+  'middleware' => ["web"]
+], function () {
+    Route::get('/', '{{ $package }}ApiBaseController@index')->name('api_get.{{ $aliasName }}.index');
+});

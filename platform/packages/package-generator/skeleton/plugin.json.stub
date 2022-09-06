@@ -1,0 +1,9 @@
+{
+  "name": "{{ $packageFolderName }}",
+  "alias": "{{ $packageFolderName }}",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "{{ $vendor }}\\{{ $package }}\\",
+  "provider": "{{ $vendor }}\\{{ $package }}\\{{ $package }}ServiceProvider"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "subscribe-job",
+  "alias": "subscribe-job",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\SubscribeJob\\",
+  "provider": "Workable\\SubscribeJob\\SubscribeJobServiceProvider"
+}

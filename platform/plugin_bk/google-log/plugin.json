@@ -1,0 +1,9 @@
+{
+  "name": "google-log",
+  "alias": "google-log",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\GoogleLog\\",
+  "provider": "Workable\\GoogleLog\\GoogleLogServiceProvider"
+}

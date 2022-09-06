@@ -1,0 +1,9 @@
+{
+  "name": "employee",
+  "alias": "employee",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\Employee\\",
+  "provider": "Workable\\Employee\\EmployeeServiceProvider"
+}

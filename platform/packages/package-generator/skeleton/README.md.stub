@@ -1,0 +1,38 @@
+# {{ $packageHumanName }}
+
+[![Build Status](https://travis-ci.org/{{ $vendorFolderName }}/{{ $packageFolderName }}.svg?branch=master)](https://travis-ci.org/{{ $vendorFolderName }}/{{ $packageFolderName }})
+[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
+[![Coverage Status](https://coveralls.io/repos/github/{{ $vendorFolderName }}/{{ $packageFolderName }}/badge.svg?branch=master)](https://coveralls.io/github/{{ $vendorFolderName }}/{{ $packageFolderName }}?branch=master)
+
+[![Packagist](https://img.shields.io/packagist/v/{{ $vendorFolderName }}/{{ $packageFolderName }}.svg)](https://packagist.org/packages/{{ $vendorFolderName }}/{{ $packageFolderName }})
+[![Packagist](https://poser.pugx.org/{{ $vendorFolderName }}/{{ $packageFolderName }}/d/total.svg)](https://packagist.org/packages/{{ $vendorFolderName }}/{{ $packageFolderName }})
+[![Packagist](https://img.shields.io/packagist/l/{{ $vendorFolderName }}/{{ $packageFolderName }}.svg)](https://packagist.org/packages/{{ $vendorFolderName }}/{{ $packageFolderName }})
+
+Package description: CHANGE ME
+
+## Installation
+
+Install via composer
+```bash
+composer require {{ $vendorFolderName }}/{{ $packageFolderName }}
+```
+
+### Publish Configuration File
+
+```bash
+php artisan vendor:publish --provider="{{ $vendor }}\{{ $package }}\{{ $package }}ServiceProvider" --tag="config"
+```
+
+## Usage
+
+CHANGE ME
+
+## Security
+
+If you discover any security related issues, please email {{ $email }}
+instead of using the issue tracker.
+
+## Credits
+
+- [{{ $name }}]({{ $githubPackageUrl }})
+- [All contributors]({{ $githubPackageUrl }}/graphs/contributors)

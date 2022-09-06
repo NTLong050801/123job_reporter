@@ -1,0 +1,129 @@
+#jquery-script-menu {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 5px solid #316594;
+    background: #fff;
+    -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    z-index: 999999;
+    padding: 10px 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.jquery-script-center {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.jquery-script-center ul {
+    width: 212px;
+    float: left;
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.jquery-script-center a {
+    text-decoration: none;
+}
+
+.jquery-script-ads {
+    width: 728px;
+    height: 90px;
+    float: right;
+}
+
+.jquery-script-clear {
+    clear: both;
+    height: 0;
+}
+
+.wrap-custom-file {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 0.5rem 1rem;
+    text-align: center;
+}
+
+.wrap-custom-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.wrap-custom-file label {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
+    border: 1px dashed #1791f2;
+    transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+/*.wrap-custom-file label span {*/
+/*display: block;*/
+/*margin-top: 2rem;*/
+/*font-size: 1.4rem;*/
+/*color: #666;*/
+/*-webkit-transition: color 0.4s;*/
+/*transition: color 0.4s;*/
+/*font-weight: 400;*/
+/*}*/
+.wrap-custom-file label .fa {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+    font-size: 1.5rem;
+    color: #1791f2;
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.wrap-custom-file label:hover span, .wrap-custom-file label:hover .fa {
+    color: #333;
+}
+
+.wrap-custom-file label.file-ok {
+    background-size: cover;
+    background-position: center;
+}
+
+/*.wrap-custom-file label.file-ok span {*/
+/*position: absolute;*/
+/*bottom: 0;*/
+/*left: 0;*/
+/*width: 100%;*/
+/*padding: 0.3rem;*/
+/*font-size: 1.1rem;*/
+/*color: #000;*/
+/*background-color: rgba(255, 255, 255, 0.7);*/
+/*}*/
+.wrap-custom-file label.file-ok .fa {
+    display: none;
+}

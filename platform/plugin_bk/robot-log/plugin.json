@@ -1,0 +1,9 @@
+{
+  "name": "robot-log",
+  "alias": "robot-log",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\RobotLog\\",
+  "provider": "Workable\\RobotLog\\RobotLogServiceProvider"
+}

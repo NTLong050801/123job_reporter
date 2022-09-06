@@ -1,0 +1,58 @@
+@extends('admin::layouts.master')
+@section('title', __('app.heading_list'))
+@section('content')
+    <div class="row">
+        <div class="col-md-12">
+            <div class="">
+                <div class="box-head">
+                    <div class="form-filter pull-left">
+                        <form action="" class="form-inline">
+                            <input type="text" class="form-control" name="name" placeholder="Tìm tên"
+                                   value="{{ form_query('name', $query) }}">
+                            <input type="text" class="form-control" name="id" placeholder="Mã trường"
+                                   value="{{ form_query('id', $query) }}">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Tìm kiếm</button>
+                        </form>
+                    </div>
+                    <div class="pull-right">
+                        <a href="{{ route('get.{{routeName}}.create') }}" class="btn btn-success"><i
+                                class="fa fa-plus"></i> Thêm mới</a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br>
+                </div>
+                <div class="body">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th width="1%" class="text-center">Id</th>
+                            <th width="5%">Code</th>
+                            <th width="10%">Tên tiếng việt</th>
+                            <th width="10%">Tên tiếng anh</th>
+                            <th width="10%">Keyword</th>
+                            <th width="10%">Địa điểm</th>
+                            <th width="10%">Website</th>
+                            <th width="5%" class="text-center">Trạng thái</th>
+                            <th width="5%" class="text-center">Nổi bật</th>
+                            <th width="10%" class="text-center">Người tạo</th>
+                            <th width="10%" class="text-center">Thao tác</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {!! PaginateHelper::show($items) !!}
+                        @foreach($items as $item)
+                            <tr>
+                                <td>{{ $item->id }}</td>
+                                <td>{{ $item->code }}</td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
+                    <div>
+                        {!! PaginateHelper::paginate($items, $query) !!}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@stop

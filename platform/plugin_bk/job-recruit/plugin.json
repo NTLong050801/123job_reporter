@@ -1,0 +1,9 @@
+{
+  "name": "job-recruit",
+  "alias": "job-recruit",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\JobRecruit\\",
+  "provider": "Workable\\JobRecruit\\JobRecruitServiceProvider"
+}

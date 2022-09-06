@@ -1,0 +1,55 @@
+.sort {
+    .div1 {
+        display: flex;
+        // background-color: white;
+    }
+    div[class ^='width'] {
+        border: 1px solid #f2f2f2;
+        padding: 10px;
+        width: 33.33%;
+        text-overflow: ellipsis;
+        white-space: wrap;
+    }
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.mainlist,
+.sublist {
+    padding-left: 0;
+}
+
+.sublist {
+    .div1 .width1 {
+        padding-left: 50px;
+    }
+}
+
+.li1>.div1 {
+    background-color: #eee;
+}
+
+.li2 {
+    background-color: white;
+    &:hover {
+        background-color: #f9f9f9;
+    }
+}
+
+.menu-list {
+    padding-left: 0;
+    li {
+        padding: 10px;
+        border: 1px solid #eee;
+        &:hover {
+            background-color: #eee;
+        }
+    }
+    .select {
+        background-color: #eee;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,150 @@
+$la-font-path: "/fonts/vendor/line-awesome/fonts" !default;
+$la-font-size-base: 16px !default;
+$la-line-height-base: 1 !default;
+$la-css-prefix: la !default;
+$la-border-color: #eee !default;
+$la-inverse: #fff !default;
+$la-li-width: (20em / 16) !default;
+$la-font-name: "LineAwesome" !default;
+$la-version: "1.1.";
+
+@function la-content($la-var) {
+    @return unquote("\"#{ $la-var }\"");
+  }
+
+$la-arrow-down: \f11f;
+$la-envelope: \f1c6;
+$la-search: \f2eb;
+$la-user: \f364;
+$la-heart-o: \f234;
+$la-paper-plane: \f2a8;
+$la-long-arrow-left: \f273;
+$la-long-arrow-right: \f274;
+$la-star: \f318;
+$la-plus: \f2c2;
+$la-map-marker: \f27d;
+$la-phone: \f2b3;
+$la-keyboard-o: \f256;
+$la-unlink: \f35f;
+$la-angle-down: \f110;
+$la-file-text: \f1ec;
+$la-briefcase: \f151;
+$la-area-chart: \f116;
+$la-edit: \f1c1;
+$la-list-ul: \f26f;
+$la-graduation-cap: \f21e;
+$la-lock: \f271;
+$la-sign-out: \f2fc;
+$la-pencil-square: \f2b1;
+$la-heart: \f233;
+$la-close: \f191;
+$la-money: \f294;
+$la-home: \f237;
+$la-times: \f342;
+$la-star-o: \f31b;
+$la-key: \f255;
+$la-arrow-circle-right: \f11d;
+$la-newspaper-o: \f29c;
+$la-plus-circle: \f2c3;
+$la-minus-circle: \f28f;
+$la-save: \f2e9;
+$la-newspaper-o: \f29c;
+$la-comments-o: \f1a2;
+$la-youtube-play: \f38c;
+$la-check: \f17b;
+$la-times: \f342;
+$la-usd: \f363;
+
+////benefit
+//$la-medkit: \f289;
+//$la-paper-plane: \f2a8;
+//$la-user-md: \f365;
+//$la-graduation-cap: \f21e;
+//$la-bar-chart: \f12e;
+//$la-laptop: \f259;
+//$la-dollar: \f1bb;
+//$la-taxi: \f333;
+//$la-fighter-jet: \f1de;
+//$la-black-tie: \f14a;
+//$la-credit-card: \f1aa;
+//$la-money: \f294;
+//$la-briefcase: \f151;
+//$la-heartbeat: \f235;
+//$la-cutlery: \f1b1;
+//$la-check-circle-o: \f17d;
+
+//benefit
+$la-medkit: \f289;
+$la-paper-plane: \f2a8;
+$la-usd: \f363;
+$la-user-md: \f365;
+$la-graduation-cap: \f21e;
+$la-bar-chart: \f12e;
+$la-laptop: \f259;
+$la-dollar: \f1bb;
+$la-taxi: \f333;
+$la-fighter-jet: \f1de;
+$la-black-tie: \f14a;
+$la-credit-card: \f1aa;
+$la-money: \f294;
+$la-briefcase: \f151;
+$la-heartbeat: \f235;
+$la-cutlery: \f1b1;
+$la-check-circle-o: \f17d;
+$la-reply: \f2da;
+$la-angle-left: \f111;
+$la-bars: \f131;
+$la-university: \f35e;
+
+//Sidebar left
+$la-calendar: \f15c;
+$la-group: \f220;
+$la-diamond: \f1b9;
+$la-gear: \f20c;
+$la-compress: \f1a4;
+$la-info: \f24a;
+$la-file: \f1df;
+$la-gears: \f20d;
+
+//JobDetail
+$la-certificate: \f178;
+$la-transgender: \f34a;
+$la-suitcase: \f32a;
+$la-wechat: \f377;
+$la-building-o: \f155;
+$la-exclamation-triangle: \f1cf;
+$la-send: $la-paper-plane;
+$la-ellipsis-v: \f1c4;
+$la-link: \f268;
+$la-arrow-left: \f120;
+$la-fax: \f1dc;
+$la-location-arrow: \f270;
+$la-clock-o: \f18f;
+$la-check-circle: \f17c;
+$la-flag: \f1f7;
+$la-users: \f369;
+$la-calendar-check-o: \f15d;
+$la-globe: \f219;
+$la-warning: \f376;
+$la-wifi: \f37c;
+$la-calendar: \f15c;
+$la-map: \f27c;
+$la-bookmark-o: \f150;
+$la-share-alt: \f2f1;
+
+//CV
+$la-angle-right: \f112;
+$la-folder: \f1fe;
+$la-thumbs-up: \f340;
+
+//home
+$la-external-link-square: \f1d3;
+$la-user-secret: \f367;
+
+
+
+
+
+
+
+

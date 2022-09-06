@@ -1,0 +1,20 @@
+<?php
+return [
+    "save" => "Lưu lại",
+    "cancel" => "Hủy",
+    "delete" => "Xóa",
+    "create" => "Thêm mới",
+    "edit" => "Sửa",
+    "show" => "Hiển thị",
+    "filter" => "Lọc",
+    "search" => "Tìm kiếm",
+    "approve" => "Duyệt",
+    "import" => "Nhập",
+    "refresh" => "Làm mới",
+    "heading_required" => "Các trường có dấu * là bắt buộc phải nhập",
+    "heading_list" => "Danh sách",
+    "heading_create" => "Thêm mới",
+    "heading_edit" => "Chỉnh sửa",
+    "heading_delete" => "Xóa",
+    "heading_show" => "Hiển thị chi tiết",
+];

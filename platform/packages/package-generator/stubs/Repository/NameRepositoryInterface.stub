@@ -1,0 +1,9 @@
+<?php
+namespace {{namespace}}\Repository\{{model}};
+
+interface {{NameRepositoryInterface}}
+{
+    public function setParam($params);
+
+    public function list($filter=[], $field=["*"], $paginate=20);
+}

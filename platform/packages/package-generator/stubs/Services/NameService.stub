@@ -1,0 +1,97 @@
+<?php
+namespace {{namespace}}\Services;
+use {{namespace}}\Repository\{{model}}\{{model}}RepositoryInterface;
+
+class {{NameService}}
+{
+    protected ${{model_lower}}Repository;
+
+    public function __construct({{model}}RepositoryInterface ${{model_lower}}Repository)
+    {
+        $this->{{model_lower}}Repository = ${{model_lower}}Repository;
+    }
+
+    /**
+     * Get list record
+     */
+    public function list($filter=[], $param=[])
+    {
+        $this->{{model_lower}}Repository->setParam($param);
+        $items = $this->{{model_lower}}Repository->list($filter);
+        return $items;
+    }
+
+     /**
+     * Find a record by id
+     * @param array $filter
+     * @param array $field
+     * @return mixed
+     */
+    public function findOneBy($filter=[], $field=['*'])
+    {
+        $filter = [
+            'filter' => $filter,
+        ];
+        $item = $this->{{model_lower}}Repository->findBy($filter, $field);
+        return $item;
+    }
+
+    /**
+     * Find a record by id
+     * @param $id
+     * @return mixed
+     */
+    public function findById($id)
+    {
+        $item = $this->{{model_lower}}Repository->findById($id);
+        return $item;
+    }
+
+    /**
+     * Insert a record by array data
+     * @param array $data
+     * @return mixed
+     */
+    public function insert($data=[])
+    {
+        $data['created_at'] = now();
+        $data['updated_at'] = now();
+        $result = $this->{{model_lower}}Repository->insert($data);
+        return $result;
+    }
+
+    /**
+     * Update record bh id
+     * @param $id
+     * @param array $data
+     * @return mixed
+     */
+    public function update($id, $data=[])
+    {
+        $data['updated_at'] = now();
+        $result = $this->{{model_lower}}Repository->update($id, $data);
+        return $result;
+    }
+
+    /**
+     * Delete a record by id
+     * @param $id
+     */
+    public function delete($id)
+    {
+        $this->{{model_lower}}Repository->delete($id);
+    }
+
+    /**
+     * Change status record by id
+     * @param $id
+     * @return mixed
+     */
+    public function changeStatus($id)
+    {
+        $data['status'] = 0;
+        $data['updated_at'] = now();
+        $result = $this->{{model_lower}}Repository->update($id, $data);
+        return $result;
+    }
+}

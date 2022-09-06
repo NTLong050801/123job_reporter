@@ -1,0 +1,9 @@
+{
+    "name": "acl",
+    "alias": "acl",
+    "description": "",
+    "active": 1,
+    "version": 1,
+    "namespace": "Workable\\Acl\\",
+    "provider": "Workable\\Acl\\AclServiceProvider"
+}

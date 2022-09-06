@@ -1,0 +1,9 @@
+{
+    "name": "organization",
+    "alias": "organization",
+    "description": "",
+    "active": 1,
+    "version": 1,
+    "namespace": "Workable\\Organization\\",
+    "provider": "Workable\\Organization\\OrganizationServiceProvider"
+}

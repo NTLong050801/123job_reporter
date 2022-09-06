@@ -1,0 +1,44 @@
+{
+    "name": "workable/platform",
+    "description": "The Workable Platform based on Laravel Framework.",
+    "keywords": [
+        "Workable",
+        "Workable platform"
+    ],
+    "authors": [
+        {
+            "name": "Hungokata",
+            "email": "hungokata630@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Workable\\Support\\": "support/src",
+            "Workable\\Base\\": "base/src",
+            "Workable\\BinderProxy\\": "binder-proxy/src",
+            "Workable\\Setting\\": "setting/src"
+        }
+    },
+    "config": {
+        "platform-check": false
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workable\\Base\\Providers\\BaseServiceProvider",
+                "Workable\\Support\\Providers\\SupportServiceProvider",
+                "Workable\\BinderProxy\\BinderProxyServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

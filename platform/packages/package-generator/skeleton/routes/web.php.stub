@@ -1,0 +1,8 @@
+<?php
+Route::group([
+  'prefix' => '{{ $aliasName }}',
+  'namespace' => '{{ $namespaceController }}',
+  'middleware' => ["web"]
+], function () {
+    Route::get('/', '{{ $package }}BaseController@index')->name('get.{{ $aliasName }}.index');
+});

@@ -1,0 +1,25 @@
+<?php
+namespace {{namespace}}\Enum;
+
+class {{NameEnumClass}}
+{
+    const TYPE_ACTIVE    = 1;
+    const TYPE_INACTIVE  = 0;
+
+    public static $statusText = [
+        0 => [
+            'name' => 'Không hoạt động',
+            'class' => 'label label-danger'
+        ],
+        1 => [
+            'name' => 'Hoạt động',
+            'class' => 'label label-success'
+        ]
+    ];
+
+    public static function status($status)
+    {
+        $statusItem = self::$statusText[$status];
+        return '<span class="'. $statusItem['class'] .'">'. $statusItem['name'] .'</label>';
+    }
+}

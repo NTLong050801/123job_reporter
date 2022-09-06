@@ -1,0 +1,9 @@
+{
+  "name": "audit-log",
+  "alias": "audit-log",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\AuditLog\\",
+  "provider": "Workable\\AuditLog\\AuditLogServiceProvider"
+}

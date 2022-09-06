@@ -1,0 +1,9 @@
+{
+  "name": "reference-site",
+  "alias": "reference-site",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\ReferenceSite\\",
+  "provider": "Workable\\ReferenceSite\\ReferenceSiteServiceProvider"
+}

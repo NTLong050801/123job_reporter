@@ -1,0 +1,12 @@
+<?php
+namespace {{ $namespaceControllerApi }};
+use Illuminate\Routing\Controller;
+use Illuminate\Http\Request;
+
+class {{ $package }}ApiBaseController extends Controller
+{
+    public function index()
+    {
+        return 'Welcome to controller api: '. __("{{ $platformFolder }}.{{ $aliasName }}::app.name");
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "workable/attribute",
+  "description": "A attribute",
+  "license": "MIT",
+  "keywords": [
+    "attribute"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "illuminate/support": "^6.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0",
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Workable\\Attribute\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Workable\\Attribute\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Workable\\Attribute\\AttributeServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

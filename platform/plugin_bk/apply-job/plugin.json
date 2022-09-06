@@ -1,0 +1,9 @@
+{
+  "name": "apply-job",
+  "alias": "apply-job",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\ApplyJob\\",
+  "provider": "Workable\\ApplyJob\\ApplyJobServiceProvider"
+}

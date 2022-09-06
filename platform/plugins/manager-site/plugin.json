@@ -1,0 +1,9 @@
+{
+  "name": "manager-site",
+  "alias": "manager-site",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\ManagerSite\\",
+  "provider": "Workable\\ManagerSite\\ManagerSiteServiceProvider"
+}

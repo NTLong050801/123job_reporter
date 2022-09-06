@@ -1,0 +1,12 @@
+[submodule "platform/packages/helpers"]
+	path = platform/packages/helpers
+	url = git@gitlab.com:workable_packages/packages/helpers.git
+[submodule "platform/core"]
+	path = platform/core
+	url = git@gitlab.com:workable_packages/platform.git
+[submodule "platform/packages/package-generator"]
+	path = platform/packages/package-generator
+	url = git@gitlab.com:workable_packages/package-generator.git
+[submodule "platform/packages/file-uploader"]
+	path = platform/packages/file-uploader
+	url = git@gitlab.com:workable_packages/file-uploader.git

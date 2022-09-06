@@ -1,0 +1,37 @@
+#cke_39, #cke_40, #cke_41, #cke_42, #cke_43, #cke_44, #cke_45, #cke_46, #cke_47 {
+    display: none !important;
+}
+
+.style-scroll, .scroll-sidebar {
+    overflow: hidden;
+    visibility: visible;
+}
+
+.style-scroll, .scroll-sidebar:hover {
+    visibility: visible;
+    overflow: auto;
+
+}
+
+.style-scroll::-webkit-scrollbar-track, .scroll-sidebar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.style-scroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.scroll-sidebar::-webkit-scrollbar {
+    width: 0px;
+}
+
+.style-scroll::-webkit-scrollbar-thumb, .scroll-sidebar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(top,
+    #e4f5fc 0%,
+    #bfe8f9 50%,
+    #9fd8ef 51%,
+    #2ab0ed 100%);
+}

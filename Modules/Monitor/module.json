@@ -1,0 +1,13 @@
+{
+    "name": "Monitor",
+    "alias": "monitor",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Monitor\\Providers\\MonitorServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

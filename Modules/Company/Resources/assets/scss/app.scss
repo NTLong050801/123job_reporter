@@ -1,0 +1,12 @@
+@import "../plugins/bootstrap3/bootstrap.css";
+@import "~admin-lte/dist/css/AdminLTE.min.css";
+@import "~admin-lte/dist/css/skins/_all-skins.css";
+@import "~resources_assets/fonts/vendor/font-awesome/scss/font-awesome";
+@import "~resources_assets/plugins/growl-notification/light-theme.min.css";
+
+
+//base
+@import "base/page_custom";
+@import "common/style_scroll.css";
+@import "common/base_page.css";
+@import "common/custome_index.css";

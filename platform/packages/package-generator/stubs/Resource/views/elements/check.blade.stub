@@ -1,0 +1,5 @@
+<div class="form-group {{ has_error($errors, '{{column}}') }}">
+    <label for="{{column}}" class="checkbox control-label">{{ __('{{tableName}}.{{column}}') }}</label>
+    <input id="{{column}}" type="checkbox" name="{{column}}" value="{{ form_input('{{column}}', $item ?? null) }}" {{required}} autofocus>
+    {!! get_error($errors, '{{column}}') !!}
+</div>

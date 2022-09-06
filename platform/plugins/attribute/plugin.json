@@ -1,0 +1,9 @@
+{
+    "name": "attribute",
+    "alias": "attribute",
+    "description": "",
+    "active": 1,
+    "version": 1,
+    "namespace": "Workable\\Attribute\\",
+    "provider": "Workable\\Attribute\\AttributeServiceProvider"
+}

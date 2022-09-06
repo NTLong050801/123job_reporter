@@ -1,0 +1,52 @@
+<?php
+namespace {{namespace}}\Repository\{{model}};
+use Workable\Support\Repositories\Eloquent\BaseRepository;
+use {{namespace}}\Models\{{model}};
+class {{NameRepository}} extends BaseRepository implements {{NameRepositoryInterface}}
+{
+    protected $model;
+    protected $param=[];
+
+    public function __construct({{model}} $model)
+    {
+        $this->model = $model;
+    }
+
+    /**
+    * Set params
+    * @param array $param
+    * @return void;
+    */
+    public function setParam($param =[])
+    {
+        $this->param = $param;
+    }
+
+    /**
+    * Get list
+    * @param array $filter
+    * @param array $field
+    * @param int $paginate
+    * @return mix;
+    */
+    public function list($filter=[], $field=["*"], $paginate=20)
+    {
+        $query = $this->model->with('admin:id,name');
+        if ($filter) {
+            $query = $this->scopeFilter($query, $filter);
+        }
+
+        $order = $this->param['order'] ?? [];
+        if ($order)
+        {
+            $query = $this->scopeSort($query, $order);
+        }
+        else
+        {
+            list($column, $direction) = ['id', 'desc'];
+            $query = $query->orderBy($column, $direction);
+        }
+        $items = $query->paginate($paginate);
+        return $items;
+    }
+}

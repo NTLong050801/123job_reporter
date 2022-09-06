@@ -1,0 +1,329 @@
+Giám đốc
+Tài chính
+    Kế toán
+    Kiểm toán
+    Tư pháp
+Nhân sự
+-- -- Tuyển dụng mass
+-- -- Tuyển dụng hunt
+-- -- Hành chính nhân sự
+-- -- Đào tạo nội bộ
+Trợ lý
+Chăm sóc khách hàng
+Phát triển sản phẩm
+Branding
+Bộ phận thiết kế
+-- -- Thiết kế gian hàng
+-- -- THiết kế banner
+Bộ phận IT
+-- -- IT mobile
+-- -- IT admin
+-- -- IT ERP
+-- -- IT giao diện
+-- -- Tester
+Khối sale dịch vụ mkt
+-- -- Marketing
+-- -- Sale Marketing
+-- -- Ecomcare
+-- -- Phòng dịch vụ SEO GG MAPS
+
+-------------------------------------------------------------------------------------------
+
+-- Công ty --
+VNP group
+-- Công ty cổ phần Vật Giá Việt Nam
+-- -- Vật giá - Hà Nội
+-- -- Vật giá - Hồ Chí Minh
+-- -- Vật giá - Hải Phòng
+-- -- WeSave
+-- -- 123doc.org
+-- -- Cunghocvui.com
+-- -- 123job.vn
+-- -- 9houz.com
+-- -- 123dok.com
+-- Công ty cổ phần TMDT Bảo Kim
+-- -- Bảo Kim - Hà Nội
+-- -- Bảo Kim - Hồ Chí Minh
+-- Công ty cổ phần Nhanh.vn
+-- -- Nhanh.vn
+-- -- Nhanh.vn Đà Nẵng
+-- -- Nhanh.vn HCM
+-- Westay
+-- Công ty cổ phần WeHelp
+-- WeLove
+-- Công ty TNHH Nguồn Nhân Lực Elite Việt Nam
+
+
+------------------ Phòng ban ----------------------------------------------------------
+Vnp group
+- Phòng ban -
+Giám đốc
+Kế toán
+Nhân sự
+Trợ Lý
+Kiểm soát nội bộ
+YPP
+BNC Group
+Quà trực tuyến
+Công ty TNHH Nguồn Nhân Lực Elite Việt Nam
+-- Tuyển dụng ngoại bộ
+-- Đào tạo ngoại bộ Westart
+Dự Án Westay
+
+
+Công ty cổ phần vật giá việt nam --------------------------------------------
+- Phòng ban -
+Ban giám đốc
+-- Vstudy
+-- Amall
+-- Muabanhay
+-- Dự án xehoi.vatgia.com
+-- Gọi vốn
+-- Nhân Sự Nguồn
+Chất lượng dịch vụ
+Chăm sóc khách hàng
+Phát triển sản phẩm
+One Office
+IT Vatgia
+Anuong.net
+Bảo Kim
+Cucre.vn
+Nhân sự
+Tài chính
+Mẹ và Bé
+Marketing
+HCNS
+Nhanh.vn
+Antiq
+Branding
+Phát triển kinh doanh
+Quản lý chất lượng (Quality Assurance)
+Quản lý ngành hàng
+Fulfillment Service
+So Sánh Giá
+ID VatGia (IT Học)
+123doc
+PR
+IT Mobile
+Vật Giá - Hải Phòng
+
+
+Nhanh.vn - Hà Nội -----------------------------------------------------
+- Phòng ban -
+Kinh doanh Nhanh.vn
+-- Nhanh.vn Hà Nội
+-- -- Nhanh HN - KD1_LanNT
+-- -- Nhanh HN - KD6_LâmVN
+-- -- Nhanh HN - KD7_ĐiệpNH
+-- -- Nhanh HN - KD11_NganLTT
+-- -- CTV Kinh doanh
+-- -- Nhanh HN - Phòng KD5_AnhNX
+-- -- -- Nhanh HN - KD16_TungNH
+-- -- -- Nhanh HN - ThanhTV_Phát triển đối tác
+-- -- Nhanh HN - Phòng KD2_TùngNT
+-- -- Nhanh HN - Phòng KD3_HuyPV
+-- -- Nhanh HN - Phòng KD4_TrườngVV
+-- -- -- Nhanh HN - KD10_ThanhPT
+-- -- -- Nhanh HN - KD8_CôngND
+-- -- -- Nhanh HN - KD17_TùngNT
+-- Nhanh Nghệ An
+-- Phòng đại lý
+-- -- HN - Đại lý - KD5_AnhNX
+-- -- HN - Đại lý - KD18_ThanhNT
+-- -- Đại lý công ty
+Khối văn phòng
+-- Phòng IT
+-- -- IT admin
+-- -- IT ERP
+-- -- IT giao diện
+-- -- Tester
+-- Phòng kế toán
+-- Giám đốc dự án
+-- -- Trợ lý
+-- -- Phòng Dịch Vụ Khách Hàng
+-- Chăm sóc đơn hàng - HươngĐTM
+-- Chăm sóc khách hàng - UyênTL
+-- Support văn phòng
+-- Phòng nhân sự - Nhanh.vn
+Khối sale dịch vụ mkt
+-- Marketing
+-- Sale Marketing
+-- Ecomcare
+-- Phòng dịch vụ SEO GG MAPS
+
+
+Bảo Kim - Hà Nội ---------------------------------------------
+- Phòng ban -
+F5 Finance &amp; Accounting
+-- Bộ phận Kế toán - Tài chính
+-- -- Phòng Kế toán - Tài chính
+-- -- -- Kế toán
+O4 Business Solutions
+-- Bộ phận giám đốc
+-- -- Quản lý chung
+-- -- Trợ lý
+-- Bộ phận kinh doanh
+-- -- Phòng kinh doanh
+-- Bộ phận hỗ trợ kinh doanh
+-- -- Lái xe
+-- Bộ phận chăm sóc
+-- -- Chăm sóc khách hàng
+-- -- Nghiệp vụ
+-- Bộ phận marketing
+-- -- Marketing
+-- Bộ phận kỹ thuật
+-- -- Kỹ thuật
+-- Ban phát triển sản phẩm
+-- -- Phát triển sản phẩm
+-- -- -- Dự án Lipo
+-- -- -- Khối IT.SERVICE
+-- -- Gofa
+-- -- BA
+F6 Human Resources
+-- Bộ phận Hành chính - Nhân sự
+-- -- Tạp vụ
+Phòng Thiết Kế
+Kiểm soát nội bộ
+Dự Án ERP365
+Dự Án Panama
+Dự án BKPos
+Tư Vấn Chuyển Đổi Số
+IT.Yaha
+
+
+
+Bảo Kim Hồ Chí MInh -----------------------------------------
+- Phòng ban -
+Bộ phận giám đốc
+-- Quản lý chung
+Bộ phận kinh doanh
+-- Phòng kinh doanh
+Bộ phận chăm sóc
+-- Chăm sóc khách hàng
+Bộ phận maketing
+Bộ phận kỹ thuật
+-- Kỹ thuật
+Bộ phận hỗ trợ kinh doanh
+-- Thiết kế
+
+Vật giá - Hà Nội ---------------------------------------
+- Phòng ban -
+Phòng chăm sóc khách hàng - Online
+IT
+-- IT-Vật Giá
+-- -- IT - Anh Toản
+-- -- IT - Anh Tuấn
+-- IT-Sever
+Tài chính
+-- Tài chính - Kế toán
+-- Tư pháp
+Nhân sự
+-- HCNS
+-- Tuyển Dụng
+-- Đào tạo
+-- PR nội bộ
+Biên dịch
+123doc
+Vchat
+BA
+Sales
+-- Sale Sàn
+-- -- Phòng KD 2
+-- -- Phòng KD 4
+-- -- -- Phòng KD 4.1
+-- -- -- Phòng KD 4.2
+-- -- -- Phòng KD 4.3
+-- -- Phòng KD 6
+-- -- -- Nhóm KD 6.1
+-- -- Phòng KD 9
+-- -- -- Nhóm KD 9.1
+-- -- Phòng KD 10
+-- -- Phòng KD 5
+-- -- Phòng KD 7
+-- -- -- Nhóm KD 7.2
+-- -- -- Nhóm KD 7.1
+-- Phòng CSGH
+Wesave
+Nhập liệu - CSKH
+Hỏi đáp - CSKH
+So Sánh Nhà
+Content Marketing
+Dự án
+-- Bizshare
+Dự án VNP Software
+
+
+Vật giá - Hồ Chí Minh -------------------
+
+- Phòng ban -
+00 CEO Office
+-- Phòng giám đốc
+-- -- Trợ lý
+-- -- Quản lý chung
+-- -- Dự án kinh doanh Wesave
+-- -- -- Thiết kế
+-- VNPU
+F5 Finance &amp; Accounting
+-- Bộ phận Tài chính - Kế toán
+-- -- Phòng tài chính - kế toán
+-- -- -- Kế toán
+F6 Human Resources
+-- Bộ phận Hành chính nhân sự HCM
+-- -- Phòng Hành chính - Nhân sự
+-- -- PR - Nội bộ
+-- -- Tuyển dụng
+O1 Marketplaces
+-- Sàn Vật Giá HCM
+-- -- Phòng KD 01
+-- -- -- Nhóm KD 24
+-- -- -- Nhóm KD 7
+-- -- -- Nhóm KD 01.3
+-- -- Phòng KD 3
+-- -- -- Nhóm Nhanh p3
+-- -- Phòng KD 8
+-- -- -- Nhóm KD 8.6
+-- -- -- Nhóm KD 8.1
+-- -- -- Nhóm KD 23
+-- -- -- Nhóm KD 8.7 _Nhi
+-- -- -- -- Nhóm KD 8.4_Uyên
+-- -- KINH DOANH TD
+-- -- -- Nhóm KDTD 13
+-- -- Phòng KD10
+-- -- CSonline-Telesale
+-- -- -- Nhóm CS online
+-- -- -- Nhóm Telesale
+-- -- Phòng KD ĐDV
+-- -- Phòng KD Bảo Kim &amp; Wesave
+-- -- Phòng KD Wesave
+-- Bộ phận quản trị thông tin
+-- -- Nhập liệu
+-- -- -- Công nghiệp - HCM
+-- -- -- PCN - HCM
+-- Bộ phận thiết kế gian hàng HCM
+-- -- Phòng thiết kế gian hàng
+-- Bảo Kim &amp; Wesave HCM
+-- 9Houz HCM
+-- Wesave HCM
+-- Wehelp HCM
+Nhóm 9
+Nhóm 2
+F1 Marketing
+-- Bộ phận Marketing
+-- -- Phòng marketing
+-- -- -- Media
+-- -- -- Nhóm Marketing - 01
+-- -- -- Nhóm Marketing - 02
+IT-Kỹ thuật
+Nhanh HCM
+-- Nhanh HCM - Phòng KD1_NgânHTM
+-- -- Nhanh HCM - Nhóm KD9_ThưNTA
+-- -- -- Nhanh HCM - SEO GG MAPS
+-- Nhanh HCM - Phòng KD8_LâmNV
+-- -- Nhanh HCM - EcomeCare Marketing
+-- Nhanh HCM - Nhóm KD3_NgânTK
+-- Nhanh HCM - Nhóm KD5_LiêmNT
+-- -- Nhanh HCM - Nhóm KD4_ThịnhNQG
+-- Nhanh HCM - Cộng tác viên
+-- Nhanh HCM -  Phòng Tuyển dụng
+-- Nhanh HCM - Phòng Kế toán
+-- Nhanh HCM - Nhóm Sale Marketing

@@ -1,0 +1,26 @@
+@import 'select2/dist/css/select2.min';
+
+.admin-info {
+    background-color: #DFF0D8; padding: 10px;
+    &__item {
+        margin-bottom: 5px;
+    }
+    &__title {
+        width: 100px; display: inline-block;font-weight: 600;
+    }
+}
+.assign-role {
+    padding: 10px;
+    border: 1px solid #f3f3f3;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+        flex: 0 0 32%;
+        margin-left: 2%;
+        margin-bottom: 15px;
+        &:nth-of-type(3n+1) {
+            margin-left: 0;
+        }
+    }
+}

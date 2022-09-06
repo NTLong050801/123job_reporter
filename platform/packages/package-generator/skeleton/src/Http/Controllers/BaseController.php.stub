@@ -1,0 +1,15 @@
+<?php
+namespace {{ $namespaceController }};
+use Illuminate\Http\Request;
+use App\Http\Controllers\AdminBaseController;
+
+class {{ $package }}BaseController extends AdminBaseController
+{
+    protected $viewPath = '{{ $platformFolder }}.{{ $aliasName }}::pages';
+    protected $routeList = '';
+
+    public function index(Request $request)
+    {
+        return 'Welcome to controller: '. __("{{ $platformFolder }}.{{ $aliasName }}::app.name");
+    }
+}

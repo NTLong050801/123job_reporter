@@ -1,0 +1,12 @@
+{
+    "activated_plugins": {
+        "acl": true,
+        "audit-log": true,
+        "employee":true,
+        "system": true,
+        "menu": true,
+        "organization":true,
+        "attribute":true,
+        "manager-site" : true
+    }
+}

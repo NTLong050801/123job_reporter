@@ -1,0 +1,28 @@
+<?php
+
+namespace {{ $vendor }}\{{$package}}\Tests;
+
+use {{ $vendor }}\{{$package}}\Facades\{{$package}};
+use {{ $vendor }}\{{$package}}\{{$package}}ServiceProvider;
+
+use PHPUnit\Framework\TestCase;
+
+class {{$package}}Test extends TestCase
+{
+    protected function getPackageProviders($app)
+    {
+        return [{{$package}}ServiceProvider::class];
+    }
+
+    protected function getPackageAliases($app)
+    {
+        return [
+            '{{ $aliasName }}' => {{ $package }}::class,
+        ];
+    }
+
+    public function testExample()
+    {
+        $this->assertEquals(1, 1);
+    }
+}

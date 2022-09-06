@@ -1,0 +1,34 @@
+@import "~knockout-daterangepicker/dist/daterangepicker.min.css";
+@import "~datatables/media/css/jquery.dataTables.css";
+@import "../../components/custom_daterangepicker";
+@import "~microtip/microtip.css";
+table.dataTable thead th, table.dataTable thead td {
+  border-bottom: none !important;
+}
+table.dataTable.no-footer {
+  border-bottom: none !important;
+}
+.dataTables_wrapper .dataTables_info {
+  //padding-top: 0;
+  //padding-bottom: 0.755em;
+}
+.table-fixed {
+  &.fixed {
+    .thead-header{
+      overflow-x: auto;
+    }
+    .tr-header {
+      overflow-x: scroll;
+      display: block !important;
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      width: 100%;
+    }
+    //td {
+    //  &.fixed {
+    //    padding-right: 30px;
+    //  }
+    //}
+  }
+}

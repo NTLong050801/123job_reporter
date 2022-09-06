@@ -1,0 +1,48 @@
+{
+  "name": "{{ $composerName }}",
+  "description": "{{ $composerDesc }}",
+  "license": "{{ $license }}",
+  "keywords": [
+    {{ $composerKeywords }}
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "{{ $name }}",
+      "email": "{{ $email }}"
+    }
+  ],
+  "require": {
+    "php": "{{ $phpVersion }}",
+    "illuminate/support": "^6.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0",
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "{{ $vendor }}\\{{ $package }}\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "{{ $vendor }}\\{{ $package }}\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "{{ $vendor }}\\{{ $package }}\\{{ $package }}ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

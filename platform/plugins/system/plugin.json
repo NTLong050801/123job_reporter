@@ -1,0 +1,9 @@
+{
+  "name": "system",
+  "alias": "system",
+  "description": "",
+  "active": 1,
+  "version": 1,
+  "namespace": "Workable\\System\\",
+  "provider": "Workable\\System\\SystemServiceProvider"
+}

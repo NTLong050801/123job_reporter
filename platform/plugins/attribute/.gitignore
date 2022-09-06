@@ -1,0 +1,5 @@
+/vendor
+/.idea
+/node_Workable
+/composer.lock
+/.phpunit.result.cache

@@ -1,0 +1,306 @@
+html {
+    font-size: 16px;
+}
+
+body,
+.treeview-menu > li > a {
+    font-size: 0.85rem;
+}
+
+.main-sidebar {
+    width: 270px;
+}
+
+.main-header .logo,
+.main-header .sidebar-toggle,
+.main-header .navbar {
+    height: 45px;
+    min-height: 45px;
+}
+
+.skin-red-light .main-header .logo,
+.skin-red-light .main-header .navbar,
+.skin-red-light .main-header .logo:hover {
+    background: #00a65a;
+}
+
+.content-wrapper {
+
+    margin-left: 270px;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+    white-space: nowrap;
+}
+
+.sidebar-menu > li > a {
+    font-weight: 400 !important;
+}
+
+form label {
+    font-weight: 400 !important;
+}
+
+.parsley-description-list li {
+    list-style: none;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.fontsize-85 {
+    font-size: 0.85em;
+}
+
+.fontsize-90 {
+    font-size: 0.9em;
+}
+
+.table > thead > tr {
+    font-size: 0.9em;
+    background-color: #f2f2f2;
+}
+
+table td a {
+    color: #555;
+}
+
+b.red {
+    color: #ff0000;
+}
+
+.title {
+    background-color: #eee;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    color: #00a65a;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-bottom: 40px;
+}
+
+.group-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.group-content li {
+    list-style: none;
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid rgba(184, 171, 171, .11);
+}
+
+.group-content label {
+    display: inline-block;
+    width: 37%;
+    font-weight: normal;
+    text-align: left;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
+.group-content .col-ele {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.data-row {
+    border-bottom: 1px solid #eee;
+}
+
+#uploadFile {
+    height: 80px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+}
+
+.profile .user-info-left h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+#uploadFile .uploadDescription {
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lolify .lolify-bookmark, .lolify .lolify-features {
+    margin-left: 3px;
+}
+
+.paginator a, .paginator span {
+    padding: 0 6px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #296eaa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-tabs > li > a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    color: #868686;
+    background-color: #ececec;
+    border-color: #ddd;
+}
+
+.tab-content {
+    padding: 10px 0;
+}
+
+.sidebar-menu > li a {
+    display: block;
+    position: relative;
+    padding: 8px 0 10px 15px;
+    color: #555;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.treeview-menu > li > a {
+    padding-left: 15px;
+}
+
+.box {
+    border-top: none !important;
+}
+.box-default {
+    border: 0 solid #fff
+}
+
+.box-header {
+    padding-bottom: 0;
+}
+
+.data-grid-header {
+    padding: 5px 0 15px;
+}
+
+.dgColumnSelectors {
+    margin-left: 10px;
+}
+
+.dgColumnSelectors .dropdown-menu li {
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+.dgColumnSelectors .userDgConfig {
+    max-height: 421px;
+    overflow-y: scroll;
+}
+
+.dgColumnSelectors .dropdown-menu {
+    margin-top: 0;
+}
+
+.dgColumnSelectors .dropdown-menu li.divider {
+    padding: 0;
+}
+
+.dgColumnSelectors .dropdown-menu .fa {
+    font-size: 1rem;
+}
+
+.paginationControl {
+    float: right;
+    margin-top: 10px;
+}
+
+
+.multiselect-container > li {
+    padding: 0;
+}
+
+.multiselect-container > .multiselect-filter .input-group {
+    width: 96%;
+}
+
+.multiselect-container > .multiselect-filter .input-group {
+    width: 96%;
+}
+
+.multiselect-container .input-group {
+    margin: 5px;
+}
+
+.fFilterC .input-group .input-group-addon {
+    background: 0 0;
+    border: none;
+    min-width: 120px;
+    text-align: right;
+}
+
+.fFilterC .input-group .input-group-addon {
+    background: 0 0;
+    border: none;
+    min-width: 120px;
+    text-align: right;
+}
+
+.multiselect-container .input-group-addon, .multiselect-container .input-group-btn {
+    display: none;
+}
+
+
+.iconImageDefault {
+    width: 32px;
+    display: block;
+    overflow: hidden;
+}
+
+.iconImageDefault img {
+    width: 100%;
+}
+
+.colAct {
+    text-align: center;
+}
+
+.columnImg {
+    position: relative;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.color-green {
+    color: #5bc42b;
+}
+
+.fa-plus-circle {
+    color: #5bc42b;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    .form-inline .input-group > .form-control {
+        width: 100%;
+    }
+
+    .fFilterC .input-group-addon {
+        display: none;
+    }
+}
+

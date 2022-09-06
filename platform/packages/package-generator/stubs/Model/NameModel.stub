@@ -1,0 +1,19 @@
+<?php
+
+namespace {{namespace}}\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
+use Modules\Company\Models\Admin;
+
+class {{NameModel}} extends Model
+{
+    protected $table='{{table}}';
+    protected $guarded = ['id'];
+    protected $fillable = [];
+
+    public function admin()
+    {
+        return $this->belongsTo(Admin::class, 'admin_id');
+    }
+}

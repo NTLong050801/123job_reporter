@@ -1,0 +1,46 @@
+@import "~knockout-daterangepicker/dist/daterangepicker.min.css";
+@import "../../components/custom_daterangepicker";
+
+.nav-tabs {
+  li {
+    &.active {
+      a {
+        background: #fff;
+        color: #333 ;
+        &:hover, &:focus {
+          background: #fff;
+          color: #333 ;
+        }
+      }
+    }
+    a{
+      background: inherit;
+    }
+  }
+}
+
+.col-left {
+  padding-right: 0;
+  width: 270px;
+  position: fixed;
+  min-height: 100%;
+  margin-left: 15px;
+}
+.col-right {
+  padding-left: 15px;
+  margin-left: 270px;
+}
+
+.list-career-content {
+  padding: 15px 0;
+  .panel-body {
+    padding: 0 0 15px 0;
+  }
+}
+.list-career {
+  height: 500px;
+  overflow: auto;
+  label {
+    display: block;
+  }
+}

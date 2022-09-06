@@ -1,0 +1,10 @@
+@extends('admin::layouts.master')
+@section('title', __('app.heading_create'))
+@section('em', __('app.heading_required'))
+@section('content')
+    <div class="row">
+        <div class="col-md-12">
+            @include('{{platform}}.{{package}}::backend.{{model}}.form', ['action' => route('get.{{routeName}}.store')])
+        </div>
+    </div>
+@stop

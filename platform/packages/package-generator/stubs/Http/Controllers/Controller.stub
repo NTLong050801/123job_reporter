@@ -1,0 +1,128 @@
+<?php
+namespace {{namespace}}\Http\Controllers;
+
+use App\Http\Controllers\AdminBaseController;
+use Illuminate\Http\Request;
+
+use {{namespace}}\Http\Requests\{{model_name}}Request;
+use {{namespace}}\Services\{{model_name}}Service;
+use {{namespace}}\Enum\{{model_name}}StatusEnum;
+
+class {{NameController}} extends AdminBaseController
+{
+    protected $viewPath = '{{platform}}.{{package}}::backend.{{model}}';
+    protected $routeList = 'get.{{routeName}}.index';
+
+    protected ${{model_lower}}Service;
+
+    public function __construct({{model_name}}Service ${{model_lower}}Service)
+    {
+        parent::__construct();
+        $this->{{model_lower}}Service = ${{model_lower}}Service;
+    }
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function index(Request $request)
+    {
+        $this->setFilter($request, 'id', '=');
+        $this->setFilter($request, 'name', 'LIKE');
+        $filter = $this->getFilter();
+        $order = $this->getOrder();
+        $viewData = [
+            'status' => {{model_name}}StatusEnum::$statusText,
+            'items' => $this->{{model_lower}}Service->list($filter, $order),
+            'query' => $request->query()
+        ];
+        return $this->renderView('index')->with($viewData);
+    }
+
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function show($id)
+    {
+        $viewData = [
+            'item' => $this->{{model_lower}}Service->findById($id)
+        ];
+        return $this->renderView('show')->with($viewData);
+    }
+
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function create()
+    {
+        $viewData = [
+            'status' => {{model_name}}StatusEnum::$statusText,
+        ];
+        return $this->renderView('create')->with($viewData);
+    }
+
+    /**
+     * @param {{model_name}}Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function store({{model_name}}Request $request)
+    {
+        $redirect = $request->get('redirect');
+        $data = $request->except(['_token', 'redirect']);
+        $this->{{model_lower}}Service->insert($data);
+        self::message("success", "Thêm thành công");
+        return $this->redirect($redirect);
+    }
+
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function edit($id)
+    {
+        $item = $this->{{model_lower}}Service->findById($id);
+        $viewData = [
+            'status' => {{model_name}}StatusEnum::$statusText,
+            'item' => $item
+        ];
+        return $this->renderView('edit')->with($viewData);
+    }
+
+    /**
+     * @param {{model_name}}Request $request
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function update({{model_name}}Request $request, $id)
+    {
+        $this->{{model_lower}}Service->findById($id);
+        $redirect = $request->get('redirect');
+        $data = $request->except(['_token', 'redirect']);
+        $this->{{model_lower}}Service->update($id, $data);
+        self::message("success", "Update thành công");
+        return $this->redirect($redirect);
+    }
+
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function delete(Request $request, $id)
+    {
+        $this->{{model_lower}}Service->delete($id);
+        return $this->redirect(0);
+    }
+
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function status(Request $request, $id)
+    {
+        $this->{{model_lower}}Service->changeStatus($id);
+        return $this->redirect(0);
+    }
+}

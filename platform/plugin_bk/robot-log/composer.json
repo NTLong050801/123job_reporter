@@ -1,0 +1,49 @@
+{
+  "name": "workable/robot-log",
+  "description": "A robot log",
+  "license": "MIT",
+  "keywords": [
+    "robot",
+    "log"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "illuminate/support": "^6.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0",
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Workable\\RobotLog\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Workable\\RobotLog\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Workable\\RobotLog\\RobotLogServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

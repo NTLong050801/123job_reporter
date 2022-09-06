@@ -1,0 +1,24 @@
+<div class="form-group {{ has_error($errors, '{{column}}') }}">
+    <label for="{{collection}}" class="control-label">{{ __('{{tableName}}.{{column}}') }}</label>
+    <select id="{{collection}}" class="form-control" name="{{column}}" {{required}}>
+        <option value="">Selecione uma opção</option>
+        @foreach (${{collection}} as ${{object}})
+            <option value="{{ ${{object}}->id }}" {{ ${{object}}->id == old({{column}}) || (isset(${{objectName}}->{{column}}) && ${{object}}->id == ${{objectName}}->{{column}}) ? 'selected' : '' }}>{{ ${{object}}->name }}</option>
+        @endforeach
+    </select>
+    {!! get_error($errors, '{{column}}') !!}
+</div>
+@push('scripts')
+<script>
+    $(function () {
+        $('#{{collection}}').select2({
+            theme: "bootstrap",
+            language: {
+                noResults: function (params) {
+                    return "Nenhum resultado encontrado";
+                }
+            }
+        });
+    });
+</script>
+@endpush

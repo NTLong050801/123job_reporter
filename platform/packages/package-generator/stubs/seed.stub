@@ -1,0 +1,12 @@
+<?php
+namespace {{namespace}}\Database\Seeders;
+use Modules\Company\Database\Seeders\PermissionTableSeeder;
+
+class {{NameSeeder}} extends PermissionTableSeeder
+{
+    protected $path_config = 'plugins/{{package}}/config/permission.php';
+    public function run()
+    {
+        parent::run();
+    }
+}

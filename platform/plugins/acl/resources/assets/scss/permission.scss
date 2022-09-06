@@ -1,0 +1,15 @@
+@import 'select2/dist/css/select2.min';
+
+.select2-selection--single{
+    height: 34px !important;
+}
+
+.admin-info {
+    background-color: #DFF0D8; padding: 10px;
+    &__item {
+        margin-bottom: 5px;
+    }
+    &__title {
+        width: 100px; display: inline-block;font-weight: 600;
+    }
+}

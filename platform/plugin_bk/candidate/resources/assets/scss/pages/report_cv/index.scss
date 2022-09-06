@@ -1,0 +1,21 @@
+@import "~knockout-daterangepicker/dist/daterangepicker.min.css";
+@import "~select2/dist/css/select2.min.css";
+@import "../../../../../../../../resources/assets/scss/select2";
+@import "../../components/custom_daterangepicker";
+
+.modal-title {
+  font-weight: 600;
+}
+.modal-dialog {
+  top: inherit;
+  width: 850px;
+}
+.modal-header .close {
+  margin-top: -20px;
+}
+.modal-candidate-detail{
+  i.fa{
+    width: 17px;
+    text-align: center;
+  }
+}
